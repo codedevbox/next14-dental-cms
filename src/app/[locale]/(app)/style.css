@@ -1,0 +1,64 @@
+body {
+    color: #3D3D3D;
+}
+
+.gradientText {
+    background: linear-gradient(to right, #AEADF9, #EEBDF4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    border-bottom: dotted 2px #fff;
+}
+
+.gradientText:hover {
+    background: linear-gradient(to right, #7d7ceb, #da72e8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    border-bottom: dotted 2px #7d7ceb;
+}
+
+.menu-wrapper {
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .menu-wrapper::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  
+  .menu-wrapper {
+    scrollbar-width: none;
+  }
+
+.myMap .leaflet-top {
+    top: 25px;
+}
+
+.content-article p {
+    text-indent: 2rem;
+    margin-bottom: 2rem;
+}
+
+.content-article img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content-article .image {
+    clear: both;
+    display: table;
+    margin: .9em auto;
+    min-width: 50px;
+    text-align: center;
+}
+
+.content-article .image-style-side {
+    float: right;
+    margin-left: 1.5em;
+    max-width: 50%;
+}

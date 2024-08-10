@@ -1,0 +1,22 @@
+.ckeditor-custom {
+    height: 500px;
+}
+.ckeditor-custom .ck-editor__editable {
+    color: #3D3D3D;
+    font-family: '__Noto_Sans_90df87', '__Noto_Sans_Fallback_90df87';
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 100;
+    height: 450px;
+}
+.ckeditor-custom .ck-source-editing-area textarea {
+    overflow: scroll;
+    height: 440px;
+}
+.ckeditor-custom .ck-source-editing-area {
+    height: 450px;
+}
+.ck-editor__editable p {
+    text-indent: 2rem;
+    margin-bottom: 2rem;
+}
